@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav .nav-right-section a{
+    color: black;
+    margin-right: 20px;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 200px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-logo img{
+    height: 90px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-input-container {
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 525px;
+}
+
+main .main-input input {
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 430px;
+}
+
+main .main-input .search-icon {
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    padding-left: 7%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+    padding-left: 10px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 10%;
+    margin-left: 7px;
+}
+
+main .buscadores {
+padding-top: 30px;
+display: flex;
+justify-content: center;
+}
+
+main .buscadores .buscar {
+    background-color: #f8f9fa;
+    color: #44474a;
+    width: 135px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: transparent;
+    margin-right: 12px;
+}
+
+main .buscadores .suerte {
+    background-color: #f8f9fa;
+    color: #44474a;
+    width: 135px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+footer .section-mex {
+    color: #70757a;
+    padding: auto;
+    padding-bottom: 12px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-bottom: 2px solid #e3e4e7;
+    list-style: none;
+    font-size: 15px;
+}
+
+footer .section-two .lista-uno {
+    list-style: none;
+    font-size: 14px;
+    color: #70757a;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+
+footer .section-two .lista-uno .derecha {
+display: flex;
+justify-content: flex-end;
+}
+
+footer .section-two .lista-uno .izquierda {
+display: flex;
+justify-content: flex-start;
+}
+
+
+
